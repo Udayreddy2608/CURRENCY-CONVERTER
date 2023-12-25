@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+}
+.dropdown{
+    display: flex;
+    gap: 30px;
+}
+
+.convert-btn{
+    margin-top: 10px;
+}
+
+.exchange{
+    margin-top: 70px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #637E76;
+
+}
+
+h2 {
+    margin-top: 20%;
+    font-size: 30px;
+    text-shadow: 0 0 5px #f5f3f0, 0 0 15px #ffa500, 
+    0 0 20px #ffa500, 0 0 40px 
+    #ffa500, 0 0 60px #ff0000, 
+    0 0 10px #ff8d00, 0 0 98px #131212;
+      color: #060605;
+    font-family: "Sacramento", cursive;
+    text-align: center;
+  }
+
+#bg{
+    position: absolute;
+    z-index: -10;
+    opacity: 0.5;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.amount{
+    display: flex;
+    gap: 10px;
+}
+
+.amount p{
+    margin-top: 13px;
+}
+input{
+    width: 200px;
+    height: 40px;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 2px;
+    text-align: center;
+}
+
+input:hover{
+    border: 2px solid brown;
+}
+
+.form{
+    width: 70vw;
+    height: 50vh;
+    min-height: 300px;
+    max-width: 400px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    align-items: center;
+    background-color: white;   
+    backdrop-filter: blur(5px);
+    color: black;
+    border-radius: 30px;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 1);
+}
+
+select{
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    font-size: 0.8rem;
+    padding: 4px;
+}
+
+select:hover{
+    border: solid 2px green;
+}
+
+button{
+    background-color: green;
+    color: white;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    width: 200px;
+    height: 40px;
+}
+
+button:hover{
+    border: solid 2px #ff0000;
+}
+
+#finmsg{
+    font-weight: 600;
+}
